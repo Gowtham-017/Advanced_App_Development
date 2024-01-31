@@ -1,0 +1,55 @@
+.vbody {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-left: 180px;
+    align-items: center;
+}
+.leftbar {
+    width: 250px;
+    top: 8px;
+    left: 1px;
+    position: absolute;
+    height: 99.5vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.leftbar h2{
+    margin-top: 20px;
+}
+.leftbarbtn {
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.leftbarbtn:hover {
+    background-color: #777;
+}
+.dashboard-nav{
+    height: 5%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    background: #aaaaaa4f;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.nav-list a{
+    color: black;
+    text-decoration: none;
+}
