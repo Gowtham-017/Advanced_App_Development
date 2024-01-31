@@ -1,0 +1,45 @@
+.event-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.evnt-create-box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 20px;
+}
+.event-details input,textarea{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.create-button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background: tan;
+    font-family: inherit;
+    margin-left: 50px;
+    width: 50%;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+.form-data{
+    border: 1px solid black;
+    height: 150px;
+    margin-left: 160px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
