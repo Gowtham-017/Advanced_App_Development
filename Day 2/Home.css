@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-page{
+    height: 100vh;
+}
+.nav-bar{
+    height: 9%;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+    /* position: fixed; */
+}
+.nav-items{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    font-size: large;
+    padding-right: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.nav-items a:hover{
+    transform: translateY(4px);
+    color: #ff004f;
+}
+.home-side{
+    display: flex;
+    justify-content: center;
+}
+.home-content{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.himg img{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+.getstarted{
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color:#008CBA;
+    transition: transform 0.3s ease;
+}
+.getstarted:hover{
+    background-color: rgb(48, 162, 162);
+    color: white;
+    transform: translateY(10px);
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+}
