@@ -1,0 +1,114 @@
+.sign-page{
+    background: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    border: .1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    color: black;
+    background: white;
+}
+.box input{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.signin-button{
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    font-family: inherit;
+    font-size: large;
+    cursor: pointer;
+    color: white;
+    background: #444643;
+}
+.gooo{
+    position: absolute;
+    top: 70%;
+    left: 44.5%;
+}
+.google-signin {
+    background-color: #4285f4; 
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.google-signin:hover {
+    background-color: #357ae8;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.signin-page{
+    height: 100vh;
+}
+.box{
+    border: .1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    opacity: 90%;
+    position: absolute;;
+    top: 18%;
+    left: 38%;
+}
+.box input{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.google-signin{
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: large;
+    background: #444643;
+
+}
+.signin-button{
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    font-family: inherit;
+    font-size: large;
+    cursor: pointer;
+    color: white;
+    background: #444643;
+} */
